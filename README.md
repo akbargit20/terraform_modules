@@ -1,4 +1,5 @@
-# terraform_modules
+# Launching RDS and EC2 instances in a VPC using Terraform
+In this article we'll use terraform to launch a VPC with a public and a private subnet, a RDS instance in the private subnet and one EC2 instance in both public and private subnet.
 ---
 
 We will first create modules for different services like VPC, Public subnet, Private subnet, RDS, and EC2 Instance. Once these modules are created, We will call these modules from our main configuration file. 
